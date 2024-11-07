@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.navbar_img {
+  width: 50%;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  color: $darkblue;
+  text-decoration: none;
+  padding-right: 10px;
+}

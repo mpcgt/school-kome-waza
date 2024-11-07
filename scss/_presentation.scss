@@ -1,0 +1,18 @@
+img {
+  width: 400px;
+}
+
+.presentation_text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: $darkblue;
+  padding-bottom: 10px;
+}
+
+.presentation_text_title,
+.presentation_text_subtitle {
+  font-weight: normal;
+}

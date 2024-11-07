@@ -1,0 +1,28 @@
+.footer {
+    font-family: "Roboto", sans-serif;
+    background-color: $darkpetrolblue;
+    color: $white;
+    height: 200px;
+}
+
+.footer_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_text_title {
+      font-weight: 300;
+      padding-top: 50px;
+      padding-bottom: 20px;
+}
+
+.footer_text_subtitle {
+    text-align: center;
+    font-weight: 200;    
+}
+
+.bold {
+    font-weight: bold;
+}

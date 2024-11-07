@@ -10,12 +10,19 @@
       href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,500;1,9..40,500&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Kome Waza</title>
   </head>
   <body>
     <header>
       <nav>
-        <img src="img/logo-kome-waza.jpg" alt="Logo" />
+        <img src="img/logo-kome-waza.jpg" class="navbar_img" alt="Logo" />
         <ul>
           <li>
             <a href="#">Home</a>
@@ -32,14 +39,14 @@
 
     <main>
       <section class="hero">
-        <!-- importer l'image dans le fichier sass -->
+        <img src="./img/header-image.jpg" alt="" />
       </section>
 
       <section class="presentation">
         <img src="./img/epices.jpg" alt="Les épices" />
         <div class="presentation_text">
-          <h2>Kome Waza</h2>
-          <h4>( ko-meh wa-za )</h4>
+          <h2 class="presentation_text_title">Kome Waza</h2>
+          <h4 class="presentation_text_subtitle">( kō-meh wa-za )</h4>
           <p>
             Respect the fish! Kome Waza strives to provide you with a delicate
             balance between time-honored Japanese sushi traditions and exciting
@@ -51,35 +58,39 @@
 
       <section class="signature">
         <img src="img/images-slider.jpg" alt="" />
-        <h2>SIGNATURE POKE</h2>
-        <br class="horizontal_bar" />
+        <h2 class="signature_title">SIGNATURE POKE</h2>
+        <hr class="horizontal_bar" />
         <div class="signature_menus">
-          <!-- icon -->
-          <h2>1 WHITE SOY AVOCADO CREAM BOWL</h2>
+          <h2 class="signature_menus_title">
+            <i class="fa-solid fa-heart" style="color: #6cadc2"></i> 1 WHITE SOY
+            AVOCADO CREAM BOWL
+          </h2>
           <p>
             Seared tuna over 8-grain brown rice with mixed greens, hijiki
             quinoa, white soy avocado cream sauce, sesame seeds, garlic chips,
             kizami nori, tobiko, and salsa
           </p>
-          <h2>2 SILKEN SHISO TOFU BOWL</h2>
+          <h2 class="signature_menus_title">2 SILKEN SHISO TOFU BOWL</h2>
           <p>
             Tuna and tofu over 8 - grain brown rice with mixed greens, hijiki
             quinoa, edamame, silken shiso tofu sauce, avocado, and kizami nori
           </p>
-          <h2>3 SALTED MANGO HAMACHI BOWL</h2>
+          <h2 class="signature_menus_title">3 SALTED MANGO HAMACHI BOWL</h2>
           <p>
             Hamachi and scallops over mixed greens with mango, hijiki quinoa,
             edamame, tomato, mango anchovy sauce, masago, sesame seeds, and
             radish sprouts
           </p>
-          <!-- icon -->
-          <h2>4 POMEGRANATE CITRUS SPICE BOWL</h2>
+          <h2 class="signature_menus_title">
+            <i class="fa-solid fa-pepper-hot" style="color: #6cadc2"></i> 4
+            POMEGRANATE CITRUS SPICE BOWL
+          </h2>
           <p>
             Salmon over sushi rice with mixed greens, tomato, sweet onion,
             cucumber, edamame, pomegranate citrus spice sauce, ogo seaweed,
             sesame seeds, radish sprouts, and tobiko
           </p>
-          <h2>5 WASABI CASHEW TAKO BOWL</h2>
+          <h2 class="signature_menus_title">5 WASABI CASHEW TAKO BOWL</h2>
           <p>
             Octopus, scallops, and shrimp over kale cold noodles with mixed
             greens, hijiki quinoa, tomato, wasabi cashew peanut sauce, ogo
@@ -89,13 +100,17 @@
         <img src="img/sushis.jpg" alt="Sushis" />
       </section>
       <section class="maps">
-        <img src="?" alt="" />
+        <img src="./img/image-maps.png" alt="Maps" />
       </section>
       <section class="footer">
         <footer>
-          <h2>Contact</h2>
-          <p>646-368-1727</p>
-          <p>info@komewaza.com</p>
+          <div class="footer_text">
+            <h2 class="footer_text_title">Contact</h2>
+            <div class="footer_text_subtitle">
+              <p>646-368-1727</p>
+              <p><span class="bold">info</span>@komewaza.com</p>
+            </div>
+          </div>
         </footer>
       </section>
     </main>

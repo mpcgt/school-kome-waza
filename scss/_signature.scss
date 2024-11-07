@@ -1,0 +1,36 @@
+.signature_title {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: $darkblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: normal;
+}
+
+.horizontal_bar {
+  border: 1px solid $bluegreen;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.signature_menus {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: $darkblue;
+  padding-bottom: 10px;
+}
+
+.signature_menus_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+  width: 100%;
+}
