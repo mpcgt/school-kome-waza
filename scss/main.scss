@@ -1,9 +1,17 @@
+// Importer les variables (Couleurs, responsive)
 @import "variables";
+// Réinitialisation des styles
 @import "reset";
 
+// Importer la navigation
 @import "navbar";
+// Importer la section "Hero" contenant un background
 @import "hero";
+// Importer la section "Présentation" contenant une image sur les épices et un texte
 @import "presentation";
+// Importer la section "Signature" contenant des images des menus et le texte contenant 5 menus
 @import "signature";
+// Importer la section "Maps" contenant la carte Google Maps qui est importé sur le restaurant Kome Waza
 @import "maps";
+// Importer le footer
 @import "footer";

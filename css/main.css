@@ -173,7 +173,7 @@ a:hover {
   .signature_menus_title {
     flex-direction: row;
     justify-content: flex-start;
-    align-items: start;
+    align-items: flex-start;
     display: inline-flex;
   }
   .signature_menus_title i {
