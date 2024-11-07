@@ -1,5 +1,11 @@
-img {
+.presentation_img {
   width: 400px;
+
+  @media (min-width: $desktop) {
+    position: relative;
+    width: 25%;
+    left: 300px;
+  }
 }
 
 .presentation_text {
@@ -10,9 +16,23 @@ img {
   text-align: center;
   color: $darkblue;
   padding-bottom: 10px;
+
+  @media (min-width: $desktop) {
+    position: absolute;
+    text-align: right;
+    top: 750px;
+    right: 300px;
+    width: 25%;
+  }
 }
 
 .presentation_text_title,
 .presentation_text_subtitle {
   font-weight: normal;
+}
+
+@media (min-width: $desktop) {
+  .presentation_text_paragraph {
+    padding-top: 20px;
+  }
 }

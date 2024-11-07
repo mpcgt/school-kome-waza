@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./scss/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -39,15 +39,15 @@
 
     <main>
       <section class="hero">
-        <img src="./img/header-image.jpg" alt="" />
+        <img src="./img/header-image.jpg" class="hero_img" alt="" />
       </section>
 
       <section class="presentation">
-        <img src="./img/epices.jpg" alt="Les épices" />
+        <img src="./img/epices.jpg" class="presentation_img" alt="Les épices" />
         <div class="presentation_text">
           <h2 class="presentation_text_title">Kome Waza</h2>
           <h4 class="presentation_text_subtitle">( kō-meh wa-za )</h4>
-          <p>
+          <p class="presentation_text_paragraph">
             Respect the fish! Kome Waza strives to provide you with a delicate
             balance between time-honored Japanese sushi traditions and exciting
             new Asian-inspired flavors in a refreshing new take on the East
@@ -57,13 +57,13 @@
       </section>
 
       <section class="signature">
-        <img src="img/images-slider.jpg" alt="" />
+        <img src="img/images-slider.jpg" class="signature_menus_img" alt="" />
         <h2 class="signature_title">SIGNATURE POKE</h2>
         <hr class="horizontal_bar" />
         <div class="signature_menus">
           <h2 class="signature_menus_title">
-            <i class="fa-solid fa-heart" style="color: #6cadc2"></i> 1 WHITE SOY
-            AVOCADO CREAM BOWL
+            <i class="fa-solid fa-heart" style="color: #6cadc2"></i>
+            1 WHITE SOY AVOCADO CREAM BOWL
           </h2>
           <p>
             Seared tuna over 8-grain brown rice with mixed greens, hijiki
@@ -97,10 +97,17 @@
             seaweed, rice pop, and radish sprouts
           </p>
         </div>
-        <img src="img/sushis.jpg" alt="Sushis" />
+        <img src="./img/logo.png" class="signature_logo_img" alt="" />
+        <img src="img/sushis.jpg" class="signature_sushis_img" alt="Sushis" />
       </section>
       <section class="maps">
-        <img src="./img/image-maps.png" alt="Maps" />
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6049.168091544179!2d-74.00923373277429!3d40.705157675912595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a1439cca535%3A0xc39aeb4e18004828!2sKome%20Waza!5e0!3m2!1sfr!2sfr!4v1730984853759!5m2!1sfr!2sfr"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </section>
       <section class="footer">
         <footer>

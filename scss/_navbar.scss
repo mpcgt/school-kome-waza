@@ -4,15 +4,29 @@ nav {
   align-items: center;
   justify-content: center;
   padding-bottom: 10px;
+
+  @media (min-width: $desktop) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 .navbar_img {
   width: 50%;
+
+  @media (min-width: $desktop) {
+    position: absolute;
+    left: 15%;
+    width: 10%;
+  }
 }
 
 li {
   list-style-type: none;
   text-align: center;
+  @media (min-width: $desktop) {
+    padding-left: 200px;
+  }
 }
 
 a {
@@ -20,4 +34,13 @@ a {
   color: $darkblue;
   text-decoration: none;
   padding-right: 10px;
+  @media (min-width: $desktop) {
+    font-weight: 100 bold;
+  }
+}
+
+a:hover {
+  text-decoration: underline;
+  color: $bluegreen;
+  transition: 0.25s ease;
 }

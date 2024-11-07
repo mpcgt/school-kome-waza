@@ -14,6 +14,10 @@
   width: 80%;
   margin: 0 auto;
   margin-bottom: 10px;
+
+  @media (min-width: $desktop) {
+    width: 50%;
+  }
 }
 
 .signature_menus {
@@ -24,6 +28,21 @@
   text-align: center;
   color: $darkblue;
   padding-bottom: 10px;
+
+  @media (min-width: $desktop) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 40px;
+    width: 50%;
+
+    p {
+      padding-bottom: 20px;
+    }
+  }
 }
 
 .signature_menus_title {
@@ -33,4 +52,54 @@
   justify-content: center;
   font-weight: normal;
   width: 100%;
+
+  @media (min-width: $desktop) {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: start;
+    display: inline-flex;
+
+    i {
+      display: flex;
+      position: absolute;
+      left: 300px;
+    }
+  }
+}
+
+.signature_menus_img {
+  width: 400px;
+}
+
+.signature_sushis_img {
+  width: 400px;
+}
+
+.signature_logo_img {
+  display: none;
+}
+
+@media (min-width: $desktop) {
+  .signature {
+    z-index: 10;
+  }
+
+  .signature_menus_img {
+    width: 100%;
+  }
+
+  .signature_sushis_img {
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  .signature_logo_img {
+    display: block;
+    position: absolute;
+    top: 1850px;
+    right: 100px;
+    transform: rotate(330deg);
+    opacity: 0.25;
+    z-index: -10;
+  }
 }

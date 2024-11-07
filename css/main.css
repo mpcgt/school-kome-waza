@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 375px) {
+  html {
+    width: 100%;
+  }
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+@media (min-width: 1440px) {
+  nav {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+.navbar_img {
+  width: 50%;
+}
+@media (min-width: 1440px) {
+  .navbar_img {
+    position: absolute;
+    left: 15%;
+    width: 10%;
+  }
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+}
+@media (min-width: 1440px) {
+  li {
+    padding-left: 200px;
+  }
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  color: #003e52;
+  text-decoration: none;
+  padding-right: 10px;
+}
+@media (min-width: 1440px) {
+  a {
+    font-weight: 100 bold;
+  }
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #6cadc2;
+  transition: 0.25s ease;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+}
+
+.hero_img {
+  width: 100%;
+}
+
+.presentation_img {
+  width: 400px;
+}
+@media (min-width: 1440px) {
+  .presentation_img {
+    position: relative;
+    width: 25%;
+    left: 300px;
+  }
+}
+
+.presentation_text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #003e52;
+  padding-bottom: 10px;
+}
+@media (min-width: 1440px) {
+  .presentation_text {
+    position: absolute;
+    text-align: right;
+    top: 750px;
+    right: 300px;
+    width: 25%;
+  }
+}
+
+.presentation_text_title,
+.presentation_text_subtitle {
+  font-weight: normal;
+}
+
+@media (min-width: 1440px) {
+  .presentation_text_paragraph {
+    padding-top: 20px;
+  }
+}
+.signature_title {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #003e52;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: normal;
+}
+
+.horizontal_bar {
+  border: 1px solid #6cadc2;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+@media (min-width: 1440px) {
+  .horizontal_bar {
+    width: 50%;
+  }
+}
+
+.signature_menus {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #003e52;
+  padding-bottom: 10px;
+}
+@media (min-width: 1440px) {
+  .signature_menus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 40px;
+    width: 50%;
+  }
+  .signature_menus p {
+    padding-bottom: 20px;
+  }
+}
+
+.signature_menus_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+  width: 100%;
+}
+@media (min-width: 1440px) {
+  .signature_menus_title {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: start;
+    display: inline-flex;
+  }
+  .signature_menus_title i {
+    display: flex;
+    position: absolute;
+    left: 300px;
+  }
+}
+
+.signature_menus_img {
+  width: 400px;
+}
+
+.signature_sushis_img {
+  width: 400px;
+}
+
+.signature_logo_img {
+  display: none;
+}
+
+@media (min-width: 1440px) {
+  .signature {
+    z-index: 10;
+  }
+  .signature_menus_img {
+    width: 100%;
+  }
+  .signature_sushis_img {
+    padding-top: 20px;
+    width: 100%;
+  }
+  .signature_logo_img {
+    display: block;
+    position: absolute;
+    top: 1850px;
+    right: 100px;
+    transform: rotate(330deg);
+    opacity: 0.25;
+    z-index: -10;
+  }
+}
+iframe {
+  width: 100%;
+}
+
+.footer {
+  font-family: "Roboto", sans-serif;
+  background-color: #003e52;
+  color: hsl(0, 0%, 100%);
+  height: 200px;
+}
+
+.footer_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_text_title {
+  font-weight: 300;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.footer_text_subtitle {
+  text-align: center;
+  font-weight: 200;
+}
+
+.bold {
+  font-weight: bold;
+}/*# sourceMappingURL=main.css.map */
